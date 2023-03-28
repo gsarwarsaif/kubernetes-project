@@ -1,5 +1,5 @@
 FROM centos:latest
-RUN sudo yum update -y
+RUN yum update -y
 RUN yum install -y httpd
 RUN yum install -y gzip
 Run yum install -y unzip
