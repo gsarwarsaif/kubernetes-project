@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM ubuntu:latest
 RUN yum install -y httpd
 Run yum install -y unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page289/foodfinda.zip /var/www/html/
