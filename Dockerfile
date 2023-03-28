@@ -1,6 +1,6 @@
 FROM ubuntu:latest
-RUN yum install -y httpd
-Run yum install -y unzip
+RUN apt install -y httpd
+Run apt install -y unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page289/foodfinda.zip /var/www/html/
 WORKDIR /var/www/html/
 RUN unzip foodfindia.zip
