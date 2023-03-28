@@ -1,7 +1,5 @@
 FROM centos:latest
-RUN yum update -y
 RUN yum install -y httpd
-RUN yum install -y gzip
 Run yum install -y unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page289/foodfinda.zip /var/www/html/
 WORKDIR /var/www/html/
