@@ -1,8 +1,8 @@
 FROM centos:latest
-RUN apt-get update -y
-RUN apt-get install -y apache2
-RUN apt-get install -y zip
-RUN apt-get install -y unzip
+RUN yum update -y
+RUN yum install -y apache2
+RUN yum install -y zip
+RUN yum install -y unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page290/brighton.zip /var/www/html/
 WORKDIR /var/www/html/
 RUN unzip brighton.zip
