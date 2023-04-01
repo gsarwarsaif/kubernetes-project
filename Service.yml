@@ -1,0 +1,14 @@
+kind: Service
+apoiVersion: v1
+metadata: 
+  name: mrsarwar
+  labels:
+    app: mrdevops
+spec:
+  ports:
+    - port: 8080
+      targetPort:80
+      neodePort: 31200
+  selector:
+    app: mrdevops
+    type: LoadBalancer
