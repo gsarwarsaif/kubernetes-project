@@ -3,12 +3,12 @@ apoiVersion: v1
 metadata: 
   name: mrsarwar
   labels:
-    app: mrdevops
+    app: mrsarwar
 spec:
   ports:
     - port: 8080
       targetPort:80
       neodePort: 31200
   selector:
-    app: mrdevops
+    app: mrsarwar
     type: LoadBalancer

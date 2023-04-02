@@ -1,7 +1,7 @@
 kind: Deployment
 apiVersion: app/v1
 metadata:
-  name: gsarwar
+  name: mrsarwar
 spec:
   replicas: 2
   selector:
