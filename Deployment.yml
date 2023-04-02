@@ -13,4 +13,4 @@ spec:
           image: gsarwarsaif/pipeline-demo
           imagePullPolicy: Always
           ports:
-          - containerPort: 80
+          - containerPort: 80 22
