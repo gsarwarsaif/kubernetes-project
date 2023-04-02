@@ -11,4 +11,4 @@ spec:
       neodePort: 31200
   selector:
     app: mrsarwar
-    type: LoadBalancer
+  type: LoadBalancer
